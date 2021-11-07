@@ -8,6 +8,34 @@ dependencies:
   - anyio=2.2.0=py39h06a4308_1
   - argon2-cffi=20.1.0=py39h27cfd23_1
   - async_generator=1.10=pyhd3eb1b0_0
+  - blas=1.0=mkl
+  - brotlipy=0.7.0=py39h27cfd23_1003
+  - ca-certificates=2021.10.26=h06a4308_2
+  - certifi=2021.10.8=py39h06a4308_0
+  - cffi=1.14.6=py39h400218f_0
+  - charset-normalizer=2.0.4=pyhd3eb1b0_0
+  - cryptography=35.0.0=py39hd23ed53_0
+  - idna=3.2=pyhd3eb1b0_0
+  - intel-openmp=2021.4.0=h06a4308_3561
+  - ld_impl_linux-64=2.35.1=h7274673_9
+  - libffi=3.3=he6710b0_2
+  - libgcc-ng=9.3.0=h5101ec6_17
+  - libgfortran-ng=7.5.0=ha8ba4b0_17
+  - libgfortran4=7.5.0=ha8ba4b0_17
+  - libgomp=9.3.0=h5101ec6_17
+  - libsodium=1.0.18=h7b6447c_0
+  - libstdcxx-ng=9.3.0=hd4cf53a_17
+  - mkl=2021.4.0=h06a4308_640
+  - mkl-service=2.4.0=py39h7f8727e_0
+  - mkl_fft=1.3.1=py39hd3c417c_0
+  - mkl_random=1.2.2=py39h51133e4_0
+  - ncurses=6.3=h7f8727e_0
+  - numpy=1.21.2=py39h20f2e39_0
+  - numpy-base=1.21.2=py39h79a1101_0
+  - openssl=1.1.1l=h7f8727e_0
+  - pip=21.2.4=py39h06a4308_0
+  - ptyprocess=0.7.0=pyhd3eb1b0_2
+  - pycparser=2.20=py_2
   - pygments=2.10.0=pyhd3eb1b0_0
   - pyopenssl=21.0.0=pyhd3eb1b0_1
   - pyparsing=2.4.7=pyhd3eb1b0_0
@@ -41,7 +69,9 @@ dependencies:
   - zipp=3.6.0=pyhd3eb1b0_0
   - zlib=1.2.11=h7b6447c_3
   - pip:
+    - attrs==21.2.0
     - bayesian-optimization==1.2.0
+    - click==8.0.3
     - cloudpickle==2.0.0
     - dill==0.3.4
     - dlx==1.0.4
@@ -54,11 +84,13 @@ dependencies:
     - h5py==3.2.1
     - inflection==0.5.1
     - joblib==1.1.0
+    - jsonschema==4.1.2
     - lxml==4.6.3
     - more-itertools==8.10.0
     - mpmath==1.2.1
     - msgpack==1.0.2
     - multitasking==0.0.9
+    - networkx==2.6.3
     - ntlm-auth==1.5.0
     - pandas==1.3.4
     - ply==3.11
@@ -89,5 +121,4 @@ dependencies:
     - tweedledum==1.1.1
     - websocket-client==1.2.1
     - yfinance==0.1.64
-prefix: /home/gerry/opt/miniconda/envs/qttt-env
-
+prefix: /home/gerboland/anaconda3/envs/qttt-env
